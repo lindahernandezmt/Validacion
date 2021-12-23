@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/more"
+        android:title=""
+        app:showAsAction="always"
+        android:icon="@drawable/more">
+        <menu>
+            <item
+                android:id="@+id/agregarProductos"
+                android:title="Agregar Productos"
+                app:showAsAction="ifRoom"/>
+            <item
+                android:id="@+id/catalogoProductos"
+                android:title="Catalogo"
+                app:showAsAction="ifRoom"/>
+        </menu>
+    </item>
+
+</menu>
